@@ -104,7 +104,8 @@ def team_menu():
     print("Players on Team:")
     print(f"  {", ".join(players_on_team)}\n")
     print("Guardians:")
-    print(f"  {", ".join(guardian for guardians in guardians_on_team for guardian in guardians)}\n")
+    print(f"  {", ".join(guardian for guardians in guardians_on_team for
+          guardian in guardians)}\n")
     input("Press ENTER to continue...")
 
 # make sure nothing can be run by importing this app into another
